@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color_001"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gurpster.facapemobile.TestActivity"
+    tools:showIn="@layout/activity_test"
+    android:orientation="vertical">
+
+    <include layout="@layout/card_grade"/>
+
+    <include layout="@layout/card_grade2"/>
+
+</LinearLayout>

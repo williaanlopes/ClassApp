@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="7dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="7dp"
+    android:background="#4bffffff">
+
+    <TextView
+        android:id="@+id/widget_type_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:background="#0177d7"
+        android:textColor="@color/white"
+        android:text="Carregando dados..."/>
+
+    <ListView
+        android:id="@+id/widget_list_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/widget_type_list_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#4bffffff"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/widget_type_list_title"
+        style="@android:style/TextAppearance.Medium"
+        android:textAlignment="center"
+        android:text="No meeting"/>
+
+</RelativeLayout>

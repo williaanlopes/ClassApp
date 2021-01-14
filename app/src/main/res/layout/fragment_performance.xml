@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.activities.DrawerActivity">
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!--<TextView-->
+            <!--android:id="@+id/textPie"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="22sp"-->
+            <!--android:text="PieChart"/>-->
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/performance_piechart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"/>
+
+        <!--<view-->
+            <!--android:id="@+id/separator01"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:background="#a4a4a4"-->
+            <!--android:layout_below="@id/performance_piechart"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textBar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="22sp"-->
+            <!--android:text="PieChart"-->
+            <!--android:layout_below="@id/separator01"/>-->
+
+        <!--<com.github.mikephil.charting.charts.PieChart-->
+            <!--android:id="@+id/performance_bar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_below="@id/textBar"/>-->
+
+        <!--<view-->
+            <!--android:id="@+id/separator02"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:background="#a4a4a4"-->
+            <!--android:layout_below="@id/performance_bar"/>-->
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nada Encontrado!"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/refresh_view"
+            android:background="@color/belizeHole"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="preferences">
+
+        <android.support.v7.preference.ListPreference
+            android:key="PREF_SCHEDULE_TYPE"
+            android:summary="Escolha qual tela você quer ver ao inicializar"
+            android:title="Ordenar horario por:"
+            android:entries="@array/schedule_type"
+            android:entryValues="@array/schedule_type_values"
+            android:defaultValue="1"/>
+
+        <android.support.v7.preference.ListPreference
+            android:key="PREF_MAIN_SCREEN"
+            android:title="Escolher tela principal"
+            android:summary="Escolha qual tela você quer ver ao inicializar"
+            android:entries="@array/defaultTimetable"
+            android:entryValues="@array/defaultTimetableValues"
+            android:defaultValue="0"/>
+
+        <android.support.v7.preference.EditTextPreference
+            android:title="edit text"
+            android:summary="preferences_edittext_summ"
+            android:key="pref_edit"
+            android:defaultValue="preferences_edittext_default"
+            android:dialogLayout="@layout/pref_dialog_edittext_fix"
+            android:dialogMessage="preferences_edittext_message"
+            android:inputType="number"/>
+
+        <android.support.v7.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_pref3"
+            android:summary="preferences_checkbox_summ"
+            android:title="checkbox"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Notificações">
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:title="Notificação horario de aula"
+            android:summary="Lembar horaio de aulas"
+            android:key="pref_subject_schedule_notify"
+            android:defaultValue="false"/>
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:title="Notificação de Notas"
+            android:summary="Notificar quando novas notas forem adicionadas"
+            android:key="PREF_GRADE_NOTIFY"
+            android:defaultValue="true"/>
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:title="Alertar sobre provas"
+            android:summary="Alertar quando faltarem 15 dias da data de uma prova"
+            android:key="pref_subjects_"
+            android:defaultValue="true"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

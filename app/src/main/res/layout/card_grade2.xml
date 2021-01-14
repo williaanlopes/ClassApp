@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border_test">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/screen_percentage_05"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/grade_subject_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Teoria dos Grafos"
+                android:textSize="18sp"
+                android:paddingLeft="12dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="7dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="7dp"
+                android:layout_weight="2.5"
+                android:contentDescription="Status da disciplina">
+
+<!--
+                <ImageView
+                    android:id="@+id/grade_status_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/ic_check_default"
+                    android:contentDescription="Status" />
+-->
+                <TextView
+                    android:id="@+id/grade_status_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grade_status_approved"
+                    android:textSize="14sp"
+                    android:textColor="@color/grade_status_approved"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginLeft="17dp"
+            android:background="@color/md_grey_300"/>
+
+        <include layout="@layout/item_note_info2"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

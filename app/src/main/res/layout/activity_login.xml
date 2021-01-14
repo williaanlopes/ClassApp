@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.gurpster.facapemobile.view.activities.LoginActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="27dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+        <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:paddingRight="12dp"-->
+            <!--android:paddingLeft="12dp"-->
+            <!--android:paddingTop="12dp"-->
+            <!--app:srcCompat="@drawable/ic_mortarboard_blue"/>-->
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="12dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="12dp"
+                app:srcCompat="@drawable/ic_mortarboard_blue"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:id="@+id/box_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/background_button_white_strocke">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ic_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_profile_blue"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginEnd="9dp"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editText_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/login_edit_text"
+                android:singleLine="true"
+                android:textColor="@color/belizeHole"
+                android:textColorHint="@color/belizeHole"
+                android:background="@drawable/background_edit_text_white"
+                style="@style/CustomEditTextStyleWhite"/>
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/box_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/background_button_white_strocke">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ic_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_key_old"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginEnd="9dp"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password_edit_text"
+                android:singleLine="true"
+                android:textColor="@color/belizeHole"
+                android:textColorHint="@color/belizeHole"
+                android:layout_weight="1"
+                android:background="@drawable/background_edit_text_white"
+                style="@style/CustomEditTextStyleWhite"/>
+
+            <com.gurpster.facapemobile.view.CheckBoxImageView
+                android:id="@+id/view_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:checked_img="@drawable/ic_visibility"
+                app:default_img="@drawable/ic_visibility_off"
+                app:checked="false"
+                android:focusable="true"
+                android:layout_gravity="center"
+                android:layout_weight="0"/>
+
+        </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="18dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_sing_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Sing In"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/background_button_normal"/>
+
+                <!--<android.support.v4.widget.Space-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="10dp" />-->
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_marginTop="-2dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/md_red_400"/>
+
+            <!--<android.support.v4.widget.Space-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="2dp" />-->
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/action_login_guest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/action_login_guest"
+                android:textStyle="bold"
+                android:textColor="@color/peterRiver"
+                android:background="@drawable/background_button_white_strocke"/>
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="18dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textView_login_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Não consigo fazer login!"
+                android:gravity="center"
+                android:textColor="@color/peterRiver"
+                android:linksClickable="true"/>
+
+                    <!--<android.support.v4.widget.Space-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="7dp" />-->
+                    <!---->
+                    <!--<android.support.v7.widget.AppCompatTextView-->
+                        <!--android:id="@+id/action_login_guest"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/action_login_guest"-->
+                        <!--android:gravity="center"-->
+                        <!--android:textColor="@color/peterRiver"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textSize="15sp"-->
+                        <!--android:linksClickable="true"/>-->
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

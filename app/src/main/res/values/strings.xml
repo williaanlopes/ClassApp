@@ -1,0 +1,201 @@
+<resources>
+
+    <!-- app info -->
+    <string name="app_name">Facape Mobile</string>
+    <string name="app_version_code">version</string>
+    <!--/end app info -->
+
+    <string name="grade_toolbar_search_title">Search</string>
+
+    <!-- grade status -->
+    <string name="grade_status_approved">Aprovado</string>
+    <string name="grade_status_disapproved">Reprovado</string>
+    <string name="grade_status_registered">Matriculado</string>
+    <!--/ grade status -->
+
+    <!-- activity titles -->
+
+    <string name="title_schedule">Schedule</string>
+    <string name="title_historics">Historic</string>
+    <string name="title_debts">Debts</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_bug_report">Bug Report</string>
+    <string name="title_about">About</string>
+    <string name="title_messages">Messages</string>
+
+    <string name="title_activity_timetable" translatable="false">Timetable</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail" translatable="false">Item Detail</string>
+    <string name="title_activity_display_coursess">Courses</string>
+    <string name="title_activity_time_table" translatable="false">TimeTable</string>
+    <string name="title_activity_main_settings">Settings</string>
+
+    <string name="title_activity_subject_info">Subject Info</string>
+    <!--<string name="title_activity_setting">Setting</string>-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_course_searcher">Search Course</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_test" translatable="false">Test Activity</string>
+    <string name="title_activity_send_email">Send Email</string>
+    <string name="title_activity_grades">Grades</string>
+
+    <!--/ end activity titles -->
+
+    <!-- Activities -->
+    <string name="action_login_guest">I\'m invited</string>
+
+    <!-- view buttons -->
+    <string name="action_settings">Settings</string>
+    <!--/ end view buttons -->
+
+    <!-- view texts -->
+    <string name="schedule_list_item_click">Press and hold for more information!</string>
+    <!--/ end view texts -->
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!--<string name="course_code">Course Code</string>-->
+    <!--<string name="search">Search</string>-->
+    <!--<string name="sample_course_title">Introduction to Computer Programming</string>-->
+
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="text_web_ceo" translatable="false">WEB ANALYTICS</string>
+    <string name="text_web_dev" translatable="false">WEB DEVELOPER</string>
+    <string name="text_e_commerce" translatable="false">e-Commerce</string>
+
+    <string name="splash_screen_text_01">Simples e prático!</string>
+    <string name="splash_screen_text_09">Descubra... e informações</string>
+
+    <!-- drawer menu -->
+    <string name="drawer_menu_item_schedule">Schedule</string>
+    <string name="drawer_menu_item_notas">Grades</string>
+    <string name="drawer_menu_item_performance">Performance</string>
+    <string name="drawer_menu_item_history">History</string>
+    <string name="drawer_menu_item_tickets">Tickets and Debts</string>
+    <string name="drawer_menu_item_notifications">Notifications</string>
+    <string name="drawer_menu_item_map">Map</string>
+    <string name="drawer_menu_item_settings">Settings</string>
+    <string name="drawer_menu_item_bug">Report a bug</string>
+    <string name="drawer_menu_item_about">About</string>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <!--/ end drawer menu -->
+
+    <string name="gurpster_link" translatable="false">CopyRight © <a href="https://www.gurpster.com/">Gurpster Inc.</a>\nAll rights reserved</string>
+    <string name="me_link" translatable="false">Developed by \n<a href="https://www.h4ckster.com/">Williaan Souza (Dextter)</a></string>
+
+    <string name="title_activity_splash_screen" translatable="false">SplashScreenActivity</string>
+
+    <string name="text_user_name">User Name</string>
+    <string name="text_course">Coruse</string>
+
+    <string name="prompt" translatable="false">2017.1</string>
+
+    <string name="login_error">Could not login!</string>
+    <string name="login_edit_text">Login</string>
+    <string name="password_edit_text">Password</string>
+
+    <!-- Days Of Week -->
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum a sem per diam lacinia odio dapibus diam, ut tempor porttitor nostra himenaeos tempor interdum enim rutrum lorem, pharetra lectus elit ut massa taciti tempor suscipit.</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name" translatable="false">Display name</string>
+    <string name="pref_default_display_name" translatable="false">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles" translatable="false">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values" translatable="false">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync" translatable="false">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency" translatable="false">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles" translatable="false">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries" translatable="false">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="refresh_view">Refresh</string>
+
+    <string name="details_1" translatable="false"><![CDATA[• One marker per fragment\n• Default layout]]></string>
+    <string name="details_2" translatable="false"><![CDATA[• Any amount of markers per fragment\n• Custom layout\n• Custom initial position]]></string>
+
+    <string name="item_1" translatable="false">Item 1</string>
+    <string name="item_2" translatable="false">Item 2</string>
+
+
+    <!--<string name="maps_api_key" translatable="false">AIzaSyCv5bssTlJXgQeCdH9X7StyNdIs7W5a7pg</string>-->
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_guest">GuestActivity</string>
+    <string name="title_activity_subject_detail">SubjectDetailActivity</string>
+    <string name="title_activity_debt_web_view">DebtWebViewActivity</string>
+
+    <string name="places_load_data_dialog">Load data…</string>
+
+    <!-- notifications -->
+    <string name="notify_new_grades">Your grades has been updated.</string>
+</resources>

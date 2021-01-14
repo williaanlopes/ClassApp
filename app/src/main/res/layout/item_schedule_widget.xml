@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontalView"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:scrollbars="horizontal|vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnOrderPreserved="true"
+        android:alignmentMode="alignBounds"
+        android:columnCount="7"
+        android:useDefaultMargins="false"
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:id="@+id/gridLayout">
+
+        <!-- time row -->
+
+        <TextView
+            android:id="@+id/text00"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_height="match_parent"
+            android:layout_width="23dp"
+            android:layout_marginRight="5px"
+            android:layout_marginTop="1px"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:text="7:30"
+            android:textColor="@color/md_grey_700"
+            android:background="@drawable/cell_shape_time"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_height="match_parent"
+            android:layout_width="23dp"
+            android:layout_marginRight="5px"
+            android:layout_marginTop="1px"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:text="9:10"
+            android:textColor="@color/md_grey_700"
+            android:background="@drawable/cell_shape_time"/>
+
+        <!-- time row -->
+
+        <!-- subject row -->
+
+        <TextView
+            android:id="@+id/text01"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_width="45.4dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/md_grey_200"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_brown_400"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_width="45.4dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/md_grey_200"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_red_400"/>
+
+        <TextView
+            android:id="@+id/text02"
+            android:layout_width="45.4dp"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:background="@color/md_green_400"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="45.4dp"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_orange_A400"/>
+
+        <TextView
+            android:id="@+id/text03"
+            android:layout_width="45.4dp"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_blue_400"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:layout_width="45.4dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:textColor="@color/md_grey_200"
+            android:background="@color/md_red_400"/>
+
+        <TextView
+            android:id="@+id/text04"
+            android:layout_width="45.4dp"
+            android:layout_column="4"
+            android:layout_row="0"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1px"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_green_400"/>
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_column="4"
+            android:layout_row="1"
+            android:layout_width="45.4dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/md_grey_200"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_brown_400"/>
+
+        <TextView
+            android:id="@+id/text05"
+            android:layout_width="45.4dp"
+            android:layout_column="5"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text=" CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:background="@color/md_orange_A400"/>
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="45.4dp"
+            android:layout_column="5"
+            android:layout_row="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:background="@color/md_blue_400"/>
+
+        <TextView
+            android:id="@+id/text06"
+            android:layout_width="45.4dp"
+            android:layout_column="5"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_orange_A400"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="45.4dp"
+            android:layout_column="5"
+            android:layout_row="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/md_blue_400"/>
+
+        <TextView
+            android:id="@+id/text07"
+            android:layout_width="45.4dp"
+            android:layout_column="6"
+            android:layout_row="0"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="45.4dp"
+            android:layout_column="6"
+            android:layout_row="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:minHeight="60dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="CSC207H1\n LEC 0101\n RW000"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/schedule_widget_padding_top"
+            android:paddingBottom="@dimen/schedule_widget_padding_bottom"
+            android:paddingRight="@dimen/schedule_widget_padding_right"
+            android:paddingLeft="@dimen/schedule_widget_padding_left"
+            android:textAlignment="center"
+            android:background="@color/white"/>
+
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="by Williaan Souza"
+        android:textSize="9sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingRight="7dp"
+        android:paddingLeft="2dp"
+        android:gravity="right"
+        android:layout_gravity="bottom"
+        android:textColor="#FF737373"
+        android:background="@color/toolbar"/>
+</LinearLayout>

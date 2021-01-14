@@ -1,0 +1,92 @@
+[
+    {
+        "day_of_week": "2",
+        "subject_name": "TCC 2",
+        "professor_name": "Alirio",
+        "period": "8°",
+        "time": "18:50",
+        "course": "COMP",
+        "color": "#2ecc71"
+    },
+    {
+        "day_of_week": "6",
+        "subject_name": "TCC 2",
+        "professor_name": "Alirio",
+        "period": "8°",
+        "time": "20:30",
+        "course": "COMP",
+        "color": "#2ecc71"
+    },
+    {
+        "day_of_week": "2",
+        "subject_name": "Programação 3",
+        "professor_name": "Jocélio",
+        "period": "8°",
+        "time": "20:30",
+        "course": "COMP",
+        "color": "#6c5ce7"
+    },
+    {
+        "day_of_week": "3",
+        "subject_name": "Porjeto de Sistemas",
+        "professor_name": "Cynara Carvalho",
+        "period": "8°",
+        "time": "18:50",
+        "course": "COMP",
+        "color": "#8e44ad"
+    },
+    {
+        "day_of_week": "5",
+        "subject_name": "Teoria dos Grafos",
+        "professor_name": "Tenorio",
+        "period": "8°",
+        "time": "18:50",
+        "course": "COMP",
+        "color": "#34495e"
+    },
+    {
+        "day_of_week": "4",
+        "subject_name": "Projeto de Sistemas",
+        "professor_name": "Cynara Carvalho",
+        "period": "8°",
+        "time": "20:30",
+        "course": "COMP",
+        "color": "#8e44ad"
+    },
+    {
+        "day_of_week": "3",
+        "subject_name": "Teoria dos Grafos",
+        "professor_name": "Tenorio",
+        "period": "8°",
+        "time": "20:30",
+        "course": "COMP",
+        "color": "#34495e"
+    },
+    {
+        "day_of_week": "4",
+        "subject_name": "Programação 3",
+        "professor_name": "Jocélio",
+        "period": "8°",
+        "time": "18:50",
+        "course": "COMP",
+        "color": "#6c5ce7"
+    },
+    {
+        "day_of_week": "5",
+        "subject_name": "Compiladores",
+        "professor_name": "Faustino",
+        "period": "8°",
+        "time": "20:30",
+        "course": "COMP",
+        "color": "#ff5252"
+    },
+    {
+        "day_of_week": "6",
+        "subject_name": "Compiladores",
+        "professor_name": "Faustino",
+        "period": "8°",
+        "time": "18:50",
+        "course": "COMP",
+        "color": "#ff5252"
+    }
+]

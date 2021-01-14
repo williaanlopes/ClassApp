@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_drawer">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/fall_timetable"
+            android:icon="@drawable/ic_time_with_person"
+            android:title="@string/drawer_menu_item_schedule"
+            android:checked="true"/>
+        <item android:id="@+id/grade_menu"
+            android:icon="@drawable/ic_mark_a_plus"
+            android:title="@string/drawer_menu_item_notas" />
+        <item android:id="@+id/drawer_menu_history"
+            android:icon="@drawable/ic_increasing_stocks_graphic"
+            android:title="@string/drawer_menu_item_history" />
+        <item android:id="@+id/drawer_menu_ticket"
+            android:icon="@drawable/ic_barcode_reading"
+            android:title="@string/drawer_menu_item_tickets"/>
+        <item android:id="@+id/drawer_menu_notification"
+            android:icon="@drawable/ic_notification_2"
+            android:title="@string/drawer_menu_item_notifications" />
+        <item android:id="@+id/drawer_menu_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/drawer_menu_item_map" />
+
+    </group>
+
+    <group android:id="@+id/group_setting">
+        <item android:id="@+id/setting"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/drawer_menu_item_settings"/>
+        <item android:id="@+id/bug_report"
+            android:icon="@drawable/ic_malware_search"
+            android:title="@string/drawer_menu_item_bug"/>
+        <item android:id="@+id/about"
+            android:icon="@drawable/ic_coding_mobile"
+            android:title="@string/drawer_menu_item_about"/>
+    </group>
+
+</menu>

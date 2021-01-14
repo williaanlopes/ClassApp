@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Facape Mobile</string>
+
+    <string name="title_activity_main_settings">Configurações</string>
+    <string name="title_activity_subject_info">Informações da Disciplina</string>
+
+    <!-- Activities -->
+    <string name="action_login_guest">Não sou aluno</string>
+
+    <string name="grade_toolbar_search_title">Procurar</string>
+    <string name="grade_status_approved">Aprovado</string>
+    <string name="grade_status_disapproved">Reprovado</string>
+    <string name="grade_status_registered">Matriculado</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_send_email">Enviar Email</string>
+    <string name="schedule_list_item_click">Pressione e segure para mais informações!</string>
+
+    <string name="drawer_menu_item_schedule">Horário</string>
+    <string name="drawer_menu_item_performance">Desempenho</string>
+    <string name="drawer_menu_item_history">Histórico</string>
+    <string name="drawer_menu_item_tickets">Pendências</string>
+    <string name="drawer_menu_item_notifications">Recados</string>
+    <string name="drawer_menu_item_settings">Configurações</string>
+    <string name="drawer_menu_item_map">Mapa</string>
+    <string name="drawer_menu_item_bug">Reportar erro</string>
+    <string name="drawer_menu_item_about">Sobre</string>
+    <string name="app_version_code">versão</string>
+
+    <string name="login_error">Não foi possível logar!</string>
+
+    <string name="login_edit_text">Usuário</string>
+    <string name="password_edit_text">Senha</string>
+
+    <!-- Days Of Week -->
+    <string name="mon">Seg</string>
+    <string name="tue">Ter</string>
+    <string name="wed">Qua</string>
+    <string name="thu">Qui</string>
+    <string name="fri">Sex</string>
+    <string name="sat">Sab</string>
+
+    <string name="text_user_name">Nome</string>
+    <string name="text_course">Curso</string>
+    <string name="refresh_view">Atualizar</string>
+
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="pref_header_notifications">Notificações</string>
+    <string name="search">Buscar</string>
+
+    <string name="title_item_list">Itens</string>
+    <string name="title_activity_display_coursess">Cursos</string>
+    <string name="title_activity_settings">Configurações</string>
+
+    <string name="splash_screen_text_01">Simples e prático!</string>
+    <string name="splash_screen_text_09">Descubra... e informações</string>
+    <string name="drawer_menu_item_notas">Notas</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_course_searcher">Buscar Curso</string>
+    <string name="pref_header_general">Geral</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_grades">Notas</string>
+    <string name="title_schedule">Horário</string>
+    <string name="title_historics">Histórico</string>
+    <string name="title_debts">Pendências</string>
+    <string name="title_messages">Menssagens</string>
+    <string name="title_contacts">Contatos</string>
+    <string name="title_settings">Configurações</string>
+    <string name="title_bug_report">Reportar Erro</string>
+    <string name="title_about">Sobre</string>
+
+    <!-- notifications -->
+    <string name="notify_new_grades">Suas notas foram atualizadas.</string>
+
+</resources>

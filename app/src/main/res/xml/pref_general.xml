@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+
+    <ListPreference
+        android:key="defaultTimetable"
+        android:title="Default Schedule Type"
+        android:summary="Set default schedule to display when launched"
+        android:entries="@array/defaultTimetable"
+        android:entryValues="@array/defaultTimetableValues"
+        android:defaultValue="0"
+        />
+
+    <EditTextPreference
+        android:key = "username"
+        android:title="UTORid / JOINid"
+        android:defaultValue=""
+        android:summary="Acorn login username" />
+    <EditTextPreference
+        android:key = "password"
+        android:title="Password"
+        android:defaultValue=""
+        android:inputType="textPassword"
+        android:summary="Acorn login password" />
+
+    <!--SwitchPreference
+        android:key="debug_switch"
+        android:title="Show all course info"
+        android:summaryOn="Display all courses information"
+        android:defaultValue="false"
+        android:summaryOff="Only display the courses you have"/-->
+
+    <!--<CheckBoxPreference-->
+        <!--android:key="alert"-->
+        <!--android:title="Inform class time"-->
+        <!--android:summary="Alert when you are close to class time"-->
+        <!--android:defaultValue="false" />-->
+
+    <!--<android.support.v7.preference.SwitchPreferenceCompat-->
+        <!--android:key="alert"-->
+        <!--android:title="Inform class time"-->
+        <!--android:summary="Alert when you are close to class time"-->
+        <!--android:defaultValue="false" />-->
+
+
+
+    <Preference
+        android:key="version"
+        android:title="Version"
+        android:summary="1.0" />
+
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="preferences_category_one"
+        android:background="@color/white">
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="pref_pref1"
+            android:title="Inform class time"
+            android:summary="Alert when you are close to class time"/>
+
+        <android.support.v7.preference.EditTextPreference
+            android:defaultValue="preferences_edittext_default"
+
+            android:dialogMessage="preferences_edittext_message"
+            android:inputType="number"
+            android:key="pref_pref2"
+            android:summary="preferences_edittext_summ"
+            android:title="preferences_edittext_title"/>
+
+        <android.support.v7.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_pref3"
+            android:summary="preferences_checkbox_summ"
+            android:title="preferences_checkbox_title"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

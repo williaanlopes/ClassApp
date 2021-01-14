@@ -1,0 +1,62 @@
+[
+    {
+        "subject": "SISTEMAS DE INFORMACAO",
+        "grade1": "10.0",
+        "grade2": "10.0",
+        "grade3": "null",
+        "grade4": "null",
+        "score": "10.0",
+        "absences": "0",
+        "status": "Aprovado"
+    },
+    {
+        "subject": "LINGUAGENS FORMAIS",
+        "grade1": "9.6",
+        "grade2": "9.0",
+        "grade3": "null",
+        "grade4": "null",
+        "score": "9.3",
+        "absences": "0",
+        "status": "Aprovado"
+    },
+    {
+        "subject": "INTERACAO HUMANO-COMPUTADOR",
+        "grade1": "7.5",
+        "grade2": "9.5",
+        "grade3": "null",
+        "grade4": "null",
+        "score": "8.5",
+        "absences": "2",
+        "status": "Aprovado"
+    },
+    {
+        "subject": "REDES DE COMPUTADORES I",
+        "grade1": "6.7",
+        "grade2": "6.5",
+        "grade3": "10.0",
+        "grade4": "null",
+        "score": "8.3",
+        "absences": "0",
+        "status": "Aprovado"
+    },
+    {
+        "subject": "ESTAGIO SUPERVISIONADO",
+        "grade1": "10.0",
+        "grade2": "10.0",
+        "grade3": "null",
+        "grade4": "null",
+        "score": "10.0",
+        "absences": "0",
+        "status": "Aprovado"
+    },
+    {
+        "subject": "PROCESSAMENTO DIGITAL DE IMAGENS",
+        "grade1": "2.0",
+        "grade2": "8.5",
+        "grade3": "8.5",
+        "grade4": "null",
+        "score": "8.5",
+        "absences": "2",
+        "status": "Aprovado"
+    }
+]

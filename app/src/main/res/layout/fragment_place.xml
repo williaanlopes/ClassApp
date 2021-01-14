@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".view.activities.DrawerActivity">-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/palce_map"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:name="com.google.android.gms.maps.SupportMapFragment"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/empty_view"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@color/white"-->
+        <!--android:gravity="center">-->
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Nada Encontrado!"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="22sp"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<View-->
+            <!--android:id="@+id/separator"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="12dp"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/refresh_view"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="@string/refresh_view"-->
+            <!--android:background="@color/belizeHole"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textStyle="bold"-->
+            <!--android:gravity="center" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/fragment_message_root"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/white">-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/card_recycler_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scrollbars="vertical" />-->
+
+    <!--</LinearLayout>-->
+
+<!--</FrameLayout>-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="@drawable/ic_close_default"
+        app:contentInsetStart="0dp"
+        app:titleMarginStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:lineSpacingExtra="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/lorem_ipsum"
+            tools:ignore="RtlHardcoded" />
+
+    </ScrollView>
+
+</LinearLayout>

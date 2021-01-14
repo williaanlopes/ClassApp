@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_loupe"
+        android:title="@string/grade_toolbar_search_title"
+        android:visible="false"
+        app:showAsAction="always"
+        app:searchIcon="@drawable/ic_loupe"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/schedule_perspective_one"
+        android:icon="@drawable/ic_calendar"
+        android:title="Mudar Perspectiva"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/schedule_perspective_two"
+        android:icon="@drawable/ic_list"
+        android:title="Mudar Perspectiva"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <!--<group android:id="@+id/group"-->
+        <!--android:title="Ordenação"-->
+        <!--android:checkableBehavior="single"-->
+        <!--app:showAsAction="ifRoom">-->
+        <!--<item android:id="@+id/menu_sort_normal"-->
+            <!--android:checked="true"-->
+            <!--android:title="Normal"/>-->
+        <!--<item android:id="@+id/menu_sort_invert"-->
+            <!--android:checked="false"-->
+            <!--android:title="Invertido"/>-->
+        <!--<item android:id="@+id/menu_sort_by_current_day"-->
+            <!--android:checked="false"-->
+            <!--android:title="Pelo dia atual"/>-->
+    <!--</group>-->
+
+</menu>

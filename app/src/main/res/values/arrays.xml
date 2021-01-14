@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="defaultTimetable" translatable="false">
+        <item>Schedule</item>
+        <item>Academic Grades</item>
+        <item>Academic History</item>
+        <item>Debts</item>
+        <item>Messages</item>
+        <item>Maps</item>
+    </string-array>
+    <string-array name="defaultTimetableValues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="grade" translatable="false">
+        <item>2018.1</item>
+        <item>2017.2</item>
+    </string-array>
+
+    <string-array name="schedule_type" translatable="false">
+        <item>Dia atual</item>
+        <item>Ordem Crescente</item>
+        <item>Ordem Decrescente</item>
+    </string-array>
+    <string-array name="schedule_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

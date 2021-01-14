@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/spinner"
+        android:title="Outro Semestre"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:title=""-->
+        <!--app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_loupe"
+        android:title="@string/grade_toolbar_search_title"
+        app:showAsAction="always"
+        app:searchIcon="@drawable/ic_loupe"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grade_txt_size">12sp</dimen>
+    <dimen name="grade2_txt_size">12sp</dimen>
+
+    <dimen name="grade_txt_status_size">12sp</dimen>
+    <dimen name="grade_txt_absent_size">12sp</dimen>
+
+    <dimen name="schedule_widget_tip_left">0.5dp</dimen>
+    <dimen name="schedule_widget_tip_right">0.4dp</dimen>
+</resources>

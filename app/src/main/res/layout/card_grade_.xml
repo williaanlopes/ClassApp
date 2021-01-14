@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginEnd="2dp"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:id="@+id/grade_card_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/left_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:padding="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.9"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#0059ff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-12dp"
+                    android:text="Média"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/grade_subject_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Teoria dos Grafos"
+                android:textSize="22sp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="7dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="2.5"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:paddingRight="14dp"-->
+                    <!--android:paddingBottom="2dp"-->
+                    <!--android:contentDescription="Status da disciplina">-->
+
+    <!--&lt;!&ndash;-->
+                    <!--<ImageView-->
+                        <!--android:id="@+id/grade_status_img"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:background="@drawable/ic_check_default"-->
+                        <!--android:contentDescription="Status" />-->
+    <!--&ndash;&gt;-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/grade_status"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/grade_status_approved"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@color/grade_status_approved"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:gravity="center"/>-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingRight="14dp"-->
+                    <!--android:paddingBottom="7dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:contentDescription="Status da disciplina">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Faltas: "-->
+                        <!--android:textSize="@dimen/grade_txt_status_size"-->
+                        <!--android:textColor="@color/md_grey_500"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:gravity="center"/>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/grade_absent"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="11"-->
+                        <!--android:textSize="@dimen/grade_txt_absent_size"-->
+                        <!--android:textColor="@color/md_grey_500"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:gravity="center"/>-->
+
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginLeft="17dp"
+            android:background="@color/md_grey_300"/>
+
+        <include layout="@layout/item_note_info"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
